@@ -1,0 +1,43 @@
+#ignore me once
+BEGIN#ignore me twice
+
+PRINT "hello" #this prints hello
+PRINT "NO!"           #"prints no"
+PRINTLN "hello" #this prints hello
+PRINTLN "NO!"           #"prints no"
+#Heyow
+
+PRINTLN ADD -1 +1
+DIV 1 1
+VARINT year WITH 1
+DIV 1 year
+
+ADD SUB 20 MUL 2 3 44
+VARINT x WITH ADD SUB 20 MUL 2 3 44
+STORE ADD SUB 20 MUL 2 3 44 IN x
+
+VARSTR stringmo WITH "10"
+STORE "me" IN stringmo
+VARSTR y WITH "ADD 1 2"
+STORE "ADD 3 4" IN y
+PRINTLN 1
+
+VARSTR emptyStr
+VARINT emptyInt
+
+#errors below
+#BEGIN #again
+
+#ADD x y #strong typing
+#ADD 1 ADD 1
+#ADD 1 2 3
+
+#VARSTR a WITH ADD 1 2
+#PRINT ADD a 3
+
+#VARINT b WITH 10.10
+
+#VARINT thisYear
+#STORE "this text" IN thisYear
+
+END#ignore me thrice
