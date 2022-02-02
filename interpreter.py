@@ -1,4 +1,4 @@
-# Mary Ellery Queen Oliveros. 2021 December. IS 214 Assignment 3.
+# Mary Ellery Queen Oliveros. 2021 December.
 
 import math
 import os
@@ -487,7 +487,7 @@ class Interpreter:
             else:
                 self.raiseError(Error.INVALID_SYNTAX)
     
-            # Scan the stack from the last item to the first item (right to left).
+            # Scan the stack from right to left.
             result = 0
             workingStack = []
     
